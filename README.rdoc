@@ -78,7 +78,47 @@ To generate documentation programmatically:
   rdoc.document options
   # see RDoc::RDoc
 
-== Writing Documentation
+== Writing Documentation== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
 
 To write documentation for RDoc place a comment above the class, module,
 method, constant, or attribute you want documented:
