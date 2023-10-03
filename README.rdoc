@@ -66,7 +66,82 @@ recursively for C and Ruby source files only.
 
 To generate documentation using +rake+ see RDoc::Task[https://ruby.github.io/rdoc/RDoc/Task.html].
 
-To generate documentation programmatically:
+To generate documentation programmatically:== Generating Documentation
+
+Once installed, you can create documentation using the +rdoc+ command
+
+  $ rdoc [options] [names...]
+
+For an up-to-date option summary, type
+
+  $ rdoc --help
+
+A typical use might be to generate documentation for a package of Ruby
+source (such as RDoc itself).
+
+  $ rdoc
+
+This command generates documentation for all the Ruby and C source
+files in and below the current directory.  These will be stored in a
+documentation tree starting in the subdirectory +doc+.
+
+You can make this slightly more useful for your readers by having the
+index page contain the documentation for the primary file.  In our
+case, we could type
+
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues== Generating Documentation
+
+Once installed, you can create documentation using the +rdoc+ command
+
+  $ rdoc [options] [names...]
+
+For an up-to-date option summary, type
+
+  $ rdoc --help
+
+A typical use might be to generate documentation for a package of Ruby
+source (such as RDoc itself).
+
+  $ rdoc
+
+This command generates documentation for all the Ruby and C source
+files in and below the current directory.  These will be stored in a
+documentation tree starting in the subdirectory +doc+.
+
+You can make this slightly more useful for your readers by having the
+index page contain the documentation for the primary file.  In our
+case, we could type
+
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues== Generating Documentation
+
+Once installed, you can create documentation using the +rdoc+ command
+
+  $ rdoc [options] [names...]
+
+For an up-to-date option summary, type
+
+  $ rdoc --help
+
+A typical use might be to generate documentation for a package of Ruby
+source (such as RDoc itself).
+
+  $ rdoc
+
+This command generates documentation for all the Ruby and C source
+files in and below the current directory.  These will be stored in a
+documentation tree starting in the subdirectory +doc+.
+
+You can make this slightly more useful for your readers by having the
+index page contain the documentation for the primary file.  In our
+case, we could type
+
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
 
   gem 'rdoc'
   require 'rdoc/rdoc'
