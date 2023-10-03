@@ -34,6 +34,24 @@ You can make this slightly more useful for your readers by having the
 index page contain the documentation for the primary file.  In our
 case, we could type
 
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+home :: https://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
   % rdoc --main README.rdoc
 
 You'll find information on the various formatting tricks you can use
