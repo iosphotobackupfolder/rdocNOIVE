@@ -129,7 +129,30 @@ For an up-to-date option summary, type
 A typical use might be to generate documentation for a package of Ruby
 source (such as RDoc itself).
 
-  $ rdoc
+  $ rdocs://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+  % rdoc --main README.rdoc
+
+You'll find information on the various formatting tricks you can use
+in comment blocks in the documentation this generates.
+
+RDoc uses file extensions to determine how to process each file.  File names
+ending +.rb+ and +.rbw+ are assumed to be Ruby source.  Files
+ending +.c+ are parsed as C files.  All other files are assumed to
+contain just Markup-style markup (with or without leading '#' comment
+markers).  If directory names are passed to RDoc, they are scanned
+recursively for C and Ruby source files only.
+
+To generate documentation using +rake+ see RDoc::Task[https://ruby.github.io/rdoc/RDoc/Task.html].
+
+To generate documentation programmatically:== Generating Documentation
 
 This command generates documentation for all the Ruby and C source
 files in and below the current directory.  These will be stored in a
@@ -198,7 +221,53 @@ code quality :: https://codeclimate.com/github/ruby/rdoc
 To write documentation for RDoc place a comment above the class, module,
 method, constant, or attribute you want documented:
 
-  ##
+  ##s://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+  % rdoc --main README.rdoc
+
+You'll find information on the various formatting tricks you can use
+in comment blocks in the documentation this generates.
+
+RDoc uses file extensions to determine how to process each file.  File names
+ending +.rb+ and +.rbw+ are assumed to be Ruby source.  Files
+ending +.c+ are parsed as C files.  All other files are assumed to
+contain just Markup-style markup (with or without leading '#' comment
+markers).  If directory names are passed to RDoc, they are scanned
+recursively for C and Ruby source files only.
+
+To generate documentation using +rake+ see RDoc::Task[https://ruby.github.io/rdoc/RDoc/Task.html].
+
+To generate documentation programmatically:== Generating Documentations://github.com/ruby/rdoc
+rdoc :: https://ruby.github.io/rdoc
+bugs :: https://github.com/ruby/rdoc/issues
+code quality :: https://codeclimate.com/github/ruby/rdoc
+
+== Description
+
+RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+includes the +rdoc+ and +ri+ tools for generating an
+  % rdoc --main README.rdoc
+
+You'll find information on the various formatting tricks you can use
+in comment blocks in the documentation this generates.
+
+RDoc uses file extensions to determine how to process each file.  File names
+ending +.rb+ and +.rbw+ are assumed to be Ruby source.  Files
+ending +.c+ are parsed as C files.  All other files are assumed to
+contain just Markup-style markup (with or without leading '#' comment
+markers).  If directory names are passed to RDoc, they are scanned
+recursively for C and Ruby source files only.
+
+To generate documentation using +rake+ see RDoc::Task[https://ruby.github.io/rdoc/RDoc/Task.html].
+
+To generate documentation programmatically:== Generating Documentation
   # This class represents an arbitrary shape by a series of points.
 
   class Shape
